@@ -1,0 +1,542 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+}
+a{
+    color: #ffffff;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    padding: 0;
+    margin: 24px 0;
+}
+li{
+    display: flex;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+#begin{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.icon-facebook{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+h1{
+    padding: 90px 0 40px 0;
+    text-transform: uppercase;
+    font-size: 120px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.begin{
+    height: 80vh;
+    background: url(../images/5a38c611-5030-44ef-a8a4-37192b6ff2ec.jpg);
+}
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #1c599e;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+span{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.icon-down-open{
+   display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: inherit;
+    border-radius: 70px;
+    border: #FFFFFF 1px solid;
+}
+.with-b{
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 121px 0 20px 0;
+}
+.with-b:after{
+    content: "B";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    font-size: 247px;
+    font-weight: 900;
+    line-height: 210px;
+    text-transform: uppercase;
+    opacity: 0.1;
+}
+.we-love{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-item1{
+    padding: 0 10px 0 0;
+}
+.blog-item2{
+    padding: 0 10px 0 10px;
+}
+.blog-item3{
+    padding: 0 10px 0 10px;
+}
+.blog-item4{
+    padding: 0 0 0 10px;
+}
+
+.with-img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0;
+    color: #11749e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.text-low-tham-text,.text-low-tham-text2{
+    text-transform: none;
+    font-size: 12px;
+    margin: auto;
+    font-weight: 300;
+    line-height: 24px;
+    color: black;
+}
+.col{
+    display: flex;
+    background: #11749e;
+    margin: 31px 0 54px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+    width: 70px;
+    height: 70px;
+    color: #FFFFFF;
+}
+.low-text,.low-text2 {
+    color: #ffff;
+    text-transform: none;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 0 24px;
+}
+#pen{
+    background: #11749e;
+    padding: 13px 0;
+}
+.low-text2 {
+    color: #ffff;
+    text-transform: none;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 0 24px;
+}
+#t .we-love{
+    justify-content: center;
+}
+#b .we-love{
+    justify-content: center;
+}
+#t .with-b:after{
+    position: absolute;
+    content: "T";
+    top: 20px;
+    left: 0;
+    right: 0;
+    font-size: 247px;
+    font-weight: 900;
+    line-height: 210px;
+    text-transform: uppercase;
+    opacity: 0.1;
+}
+.text-low-tham-text2{
+    text-transform: uppercase;
+    width: 70%;
+}
+
+  .circle-have-a-corner   {
+        font-size: 15px;
+        margin-bottom: 25px;
+        padding: 10px;
+        background-color: #11749e;
+        font-weight: 300;
+        text-transform: uppercase;
+      color: #FFFFFF;
+    }
+  .not-col-6{
+      display: block;
+  }
+  #iphone{
+      background: url("https://jakubgreziak.github.io/creativespsd/img/bg-phone.png");
+  }
+  #iphone .we-love{
+      color: #FFFFFF;
+  }
+  #iphone .text-low-tham-text {
+      text-transform: none;
+      font-size: 15px;
+      font-weight: 300;
+      text-align: left;
+      line-height: 24px;
+      color: #ffffff;
+  }
+  .personal{
+      flex-direction: column;
+  }
+  .FULLY{
+      width: 70%;
+  }
+  .DIFFERENT{
+      width: 90%;
+  }
+  .HIGH{
+      width: 80%;
+  }
+
+  .not-col-6{
+      padding: 52px 0;
+  }
+  .not-col-62{
+      padding: 193px 0;
+  }
+.not-col-6{
+float: right;
+}
+.col{
+    padding: 0 30px 0 0;
+}
+.not-col-63 img{
+    display: block;
+    margin: 0 auto;
+}
+#b{
+    padding: 0 0 40px 0;
+}
+#creative .container{
+    max-width: 1140px;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    padding-top: 15px;
+}
+.logo:before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    top: 100px;
+    background:white;
+}
+.list-items{
+    display: flex;
+    position: relative;
+    top: 15px;
+    font-size: 17px;
+}
+.list-items a{
+    color: white;
+}
+.list-item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.home:before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    bottom: -10px;
+    margin: auto;
+    left: 0;
+    background: #2d435d;
+}
+.icon{
+    display: flex;
+    padding: 0 5px;
+    position: relative;
+    top: 15px;
+    font-size: 17px;
+}
+.icon a{
+    color: white;
+}
+.power{
+    padding:60px;
+    text-align: center;
+}
+.header-title{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size:90px;
+    padding: 55px 0 0 0;
+}
+.description{
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    color: #1c5a9e;
+    font-size: 28px;
+}
+.power p{
+    color: white;
+    text-transform: none;
+    font-size: 15px;
+}
+.icon-angle-down{
+    position: absolute;
+    display: inline-block;
+    padding:7px 8px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    font-size: 22px;
+}
+#agency{
+    padding: 100px 0 0 0;
+    background: #11739e;
+}
+#agency .text{
+    padding: 0 5px;
+}
+.were{
+    position: relative;
+}
+.were :after{
+    position: absolute;
+    content: "W";
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200px;
+    bottom: -95px;
+    opacity: 0.1;
+}
+.were h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.around{
+    text-align: center;
+    color: white;
+    display: flex;
+    padding: 47px 0;
+}
+.icon-all{
+    background: #2d85aa;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #2d85aa;
+    padding:13px;
+    font-size: 50px;
+    width: 110px;
+    height: 110px;
+}
+.icon-edit{
+    padding: 10px;
+}
+.title{
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.no-uppercase{
+    font-size: 13px;
+    text-transform: none;
+    text-align: left;
+    color:#fff;
+}
+.no-uppercase3{
+    font-size: 13px;
+    text-transform: none;
+    text-align: left;
+    color: #fff;
+}
+.text {
+    font-size: 13px;
+    text-transform: none;
+    color: #fff;
+}
+.no-uppercase2{
+    font-size: 13px;
+    text-transform: none;
+    text-align: left;
+    color:#000;
+}
+#akita{
+    padding-bottom: 75px;
+    color: #e9e9e9;
+}
+#akita .container{
+    max-width: 1140px;
+    margin: 0;
+    padding: 0;
+}
+#akita img{
+    width:539px;
+    height: 340px;
+}
+.dog{
+    height: 339px;
+    background: #1d1d1d;
+    margin: 0;
+    padding: 61px 22px 0 95px;
+}
+.dog-cat{
+    background: #f3f3f3;
+    color: #212121;
+    height: 339px;
+    margin: 0;
+    padding: 61px 22px 0 95px;
+}
+.your-project h2:after{
+    position: absolute;
+    content: "C";
+    left: 0;
+    right: 0;
+    margin: -102px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200px;
+    opacity: 0.2;
+    color: white;
+}
+#contact{
+    color: white;
+    background: url(https://jakubgreziak.github.io/creativespsd/img/bg-contact.png);
+    padding: 75px 0;
+}
+.your-project h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.submit{
+    padding: 10px 40px;
+    width:170px;
+    height: 50px;
+    border:none;
+    background: #11739e;
+    color: white;
+    text-transform: uppercase;
+}
+.form-control1,.form-control2,.form-control3{
+    background: none;
+    border: none;
+}
+.group{
+    padding-bottom: 24px;
+}
+.group .form-control{
+    border: 1px solid #cacaca;
+    padding: 20px 20px 55px;
+}
+.form{
+    padding-top: 70px;
+}
+.form-control{
+    background: none;
+    border-radius: 0;
+}
+.form-control:hover{
+    border: 1px solid #11739e;
+}
+.form-control1,.form-control2{
+    margin: 0 20px 0 0;
+}
+.form-control:focus{
+    color:white;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+input{
+    padding: 18px 20px;
+    width: 100%;
+    background-color: inherit;
+    font-size: 15px;
+    border: 1px solid #cacaca;
+}
+label {
+    width: 300px;
+    color: white;
+}
+.buttin{
+    justify-content: center;
+    display: flex;
+}
+.people{
+    width: 219px;
+}
+.img{
+    width: 30px;
+}
+#map{
+    width: 1074px;
+    height: 50vh;
+}
+#footer{
+    background: black;
+    padding: 20px;
+}
+#footer .container{
+    display: flex;
+    justify-content: space-between;
+}
